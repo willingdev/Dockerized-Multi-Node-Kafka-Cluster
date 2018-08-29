@@ -43,4 +43,4 @@ restproxy2:
     REST_PROXY_ID: 2
     # This can either connect to just the current host / a quorum
     # quorum is better for node notification one a node goes down
-   RP_ZOOKEEPER_CONNECT: 192.168.12.248:2181,192.168.12.249:2181,192.168.12.245:2181 
+    RP_ZOOKEEPER_CONNECT: 192.168.12.248:2181,192.168.12.249:2181,192.168.12.245:2181 
