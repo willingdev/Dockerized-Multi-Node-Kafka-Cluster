@@ -13,8 +13,8 @@ zookeeper2:
     zk_id: 2
     # Do 0.0.0.0 for the current Zk server that you are configuring, 
     # using the Public IP wont help to form the Quorum
-    zk_server.1: 0.0.0.0:2888:3888
-    zk_server.2: 192.168.12.248:2888:3888
+    zk_server.1: 192.168.12.248:2888:3888
+    zk_server.2: 0.0.0.0:2888:3888
     zk_server.3: 192.168.12.245:2888:3888
 
 
